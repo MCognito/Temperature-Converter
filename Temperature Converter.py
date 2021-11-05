@@ -1,5 +1,3 @@
-import tkinter as tk
-
 def varAssigner():
     while True:
         choice = input("Do you want to: \n"
@@ -33,7 +31,7 @@ def toDo_F(choice):
             quantity_A = float(quantity_A)
             return quantity_A
         except:
-            print("\n This is not an integer or number... \nPlease Enter an integer or number ")
+            print("\nThis is not an integer or number... \nPlease Enter an integer or number ")
             pass
 
 def toDo_C(choice):
@@ -44,7 +42,7 @@ def toDo_C(choice):
             quantity_A = float(quantity_A)
             return quantity_A
         except:
-            print("\n This is not an integer or number... \nPlease Enter an integer or number ")
+            print("\nThis is not an integer or number... \nPlease Enter an integer or number ")
             pass
 
 
@@ -83,7 +81,3 @@ while choice != "C":
         print(round(quantity_B), "Fahrenheit")
         print("")
         choice = varAssigner()
-
-
-
-
